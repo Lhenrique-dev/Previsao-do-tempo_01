@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+body {
+    background-image: url("https://loremflickr.com/1600/900/nature,landscape");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;/* vh se adapta a altura do tamanho da tela*/
+    width: 100vw;/* vw se adapta a largura do tamanho da tela*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.larger-box {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 450px;
+    padding: 20px;
+    border-radius: 20px;
+   
+}
+
+.input-city {
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: #7c7c7c2b;
+    color: #fff;
+    font-size: 20px;
+    width: calc(100% -100px);
+}
+
+.botao {
+    padding: 10px;
+    border: none;
+    background-color: #7c7c7c2b;
+    border-radius: 50%;
+    margin-left: 8px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;/*sobe e desce dos icones quando passo o mouse*/
+    cursor: pointer;
+}
+
+.buscar {
+    width: 14px;
+}
+
+.microfone {
+    width: 16px;
+}
+
+.botao:hover {
+    background-color: #7c7c7c;
+    transform: scale(1.2);/*Crescimento dos icones quando passo o mouse sobre eles*/
+}
+
+.medium-box {
+    margin-top: 30px;
+}
+
+.cidade {
+font-size: 28px;
+color: #fff;
+}
+
+.temp {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.umidade {
+    color: #fff;
+}
+
+.botao-ia {
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 20px;
+    margin: 12px 8px;
+    padding: 8px 6px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(11, 29, 110) ;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+    transform: 0.3s ease-in-out;
+}
+
+
+.botao-ia:hover {
+     background-color: rgb(22, 42, 131);
+  
+}
+
+.botao-ia:active {
+    background-color: rgb(15, 30, 97);
+    font-weight: bold;
+}
+
+.resposta-ia {
+    color: #fff;
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+}
