@@ -118,3 +118,35 @@ color: #fff;
     font-size: 14px;
     line-height: 1.5;
 }
+
+@media (max-width: 500px) {
+    .larger-box {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .input-city {
+        font-size: 18px;
+        width: calc(100% - 80px);
+    }
+
+    .botao {
+        padding: 8px;
+    }
+
+    .buscar {
+        width: 12px;
+    }
+
+    .microfone {
+        width: 14px;
+    }
+
+    .cidade {
+        font-size: 24px;
+    }
+
+    .temp {
+        font-size: 26px;
+    }
+}
